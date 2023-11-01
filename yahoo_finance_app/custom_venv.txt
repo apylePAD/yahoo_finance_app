@@ -1,0 +1,5 @@
+CREATE VENV: python3 -m venv ~/.venvs/yahoo_finance_app
+ACTIVATE VENV: source ~/.venvs/yahoo_finance_app/bin/activate
+CREATE VENV SHORTCUT: echo "alias activate-yfa='source ~/.venvs/yahoo_finance_app/bin/activate'" >> ~/.zshrc
+RESET: source ~/.zshrc
+INSTALL PACKAGES: pip install -r requirements.txt
