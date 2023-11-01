@@ -25,7 +25,7 @@ app_run_choices = ['all'] + all_scripts
 app_run_choices.sort()
 app_run_choices = [
     inquirer.List('APP_RUN_CHOICE',
-        message='Which portion(s) of the app do you want to run?:',
+        message='Which portion(s) of the app do you want to run?',
         choices=app_run_choices),
 ]
 APP_RUN_INPUT = inquirer.prompt(app_run_choices)["APP_RUN_CHOICE"]
